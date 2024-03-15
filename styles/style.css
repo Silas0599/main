@@ -1,0 +1,23 @@
+/* Navigation */
+nav ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+	margin: 0;
+	padding:0.5em 0;
+	width: 100%;
+	list-style: none;
+}
+
+nav li a
+{
+    display: inline-block;
+    margin-right: 10px;
+	color: white;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    background-color: #7c7c84;
+}
