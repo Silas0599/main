@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assigment Report</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 800px)">
 </head>
-
-<body>
-    <nav>
+<body id="clicked">
+    <nav id="clicked" class="nav">
         <ul>
             <li><a href="Index.html">Home</a></li>
             <li><a href="Project.html">Project</a></li>
@@ -19,9 +20,13 @@
         </ul>
     </nav>
     <header>
-        <h1>Silas Menlah</h1>
-        <h2>Undergraduate Student in Computer Science at UON</h2>
-    </header>
+        <a href="#clicked" class="showNav on"></a>
+        <a href="#" class="showNav off"></a>
+        <div class="header">
+            <h1>Silas Menlah</h1>
+            <p class="Undergraduate">Undergraduate Student in Computer Science at UON</p>
+        </div>
+    </header> 
     <main>
         <div class="content">
             <div class="container">
